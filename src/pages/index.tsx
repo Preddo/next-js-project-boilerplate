@@ -13,7 +13,7 @@ export default function Home(): ReactElement {
       </Head>
 
       <main className={styles.main}>
-        <h1>Carioca Labs</h1>
+        <h1>NextJS Application</h1>
         <h2>Boilerplate</h2>
 
         <h3>Technologies</h3>

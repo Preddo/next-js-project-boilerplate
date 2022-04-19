@@ -1,11 +1,11 @@
-# Carioca Labs Front End Boilerplate
+# NextJS Project Boilerplate
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 
 ## Introduction 🥂
 
 This boilerplate is based in the following technologies:
+
 - [React](https://github.com/facebook/react/)
 - [Typescript](https://github.com/microsoft/TypeScript)
 - [Next.js](https://github.com/vercel/next.js)
