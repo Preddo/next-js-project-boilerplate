@@ -1,10 +1,18 @@
 import { AppProps } from 'next/app'
 import { ReactElement } from 'react'
 
-import '../styles/globals.css'
+import { UserPreferencesProvider } from 'contexts/UserPreferencesContext'
+
+import 'styles/index.scss'
 
 function MyApp({ Component, pageProps }: AppProps): ReactElement {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <UserPreferencesProvider>
+        <Component {...pageProps} />
+      </UserPreferencesProvider>
+    </>
+  )
 }
 
 export default MyApp
